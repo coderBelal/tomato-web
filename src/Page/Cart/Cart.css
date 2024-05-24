@@ -1,0 +1,93 @@
+.cart {
+  width: 100%;
+  padding: 20px;
+}
+
+.cart-items {
+  width: 100%;
+}
+
+.cart-items-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.cart-items-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.cart-items-item img {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.cart-bottom {
+  display: flex; /* Arranges elements side-by-side */
+  justify-content: space-between; /* Distributes content evenly with space between */
+  border: 1px solid #ddd; /* Adds a thin border */
+  padding: 1rem; /* Adds padding inside the element */
+  margin-bottom: 1rem; /* Adds margin below the element */
+}
+
+.cart-total {
+  flex: 1; /* Takes up available space */
+}
+
+.cart-details {
+  display: flex; /* Arranges cost details in a row */
+  flex-direction: column; /* Stacks details vertically on top of each other */
+  gap: 0.5rem; /* Adds spacing between cost details */
+}
+
+.cart-total-details {
+  display: flex; /* Arranges cost label and value side-by-side */
+  justify-content: space-between; /* Distributes label and value with space between */
+}
+
+.cart-total-details p {
+  margin: 0; /* Removes default margin for cleaner layout */
+}
+
+#total {
+  font-weight: bold; /* Makes total amount text bold */
+}
+
+.cart-promocode {
+  flex: 1; /* Takes up available space */
+  margin-top: 1rem; /* Adds margin above the promo code section */
+}
+.btn {
+  background-color: #0069d9;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.cart-input {
+  display: flex; /* Arranges input field and button side-by-side */
+  gap: 0.5rem; /* Adds spacing between input and button */
+}
+
+.cart-input button {
+  background-color: #007bff; /* Blue button color */
+  color: white; /* White button text color */
+  border: none; /* Removes default button border */
+  padding: 0.5rem 1rem; /* Adds padding to the button */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.cart-input button:hover {
+  background-color: #0069d9; /* Darkens button color on hover */
+}
